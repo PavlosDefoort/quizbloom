@@ -1,0 +1,107 @@
+{
+  "quizzes": [
+    {
+      "name": "inverse-functions",
+      "questions": [
+        {
+          "question": "f(x)=\\ln{(x+2)}",
+          "questionPrompt": "Calculate $$f^{-1}(2)$$.",
+          "solution": "e^{2}-2",
+          "answer": 5.389056,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\ln{(x-2)}",
+          "questionPrompt": "Calculate $$f^{-1}(2)$$.",
+          "solution": "e^{2}+2",
+          "answer": 9.389056,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        }
+      ],
+      "numQuestions": 3
+    },
+    {
+      "name": "hyperbolic-functions",
+      "questions": [
+        {
+          "question": "f(x)=\\sinh{(x+2)}",
+          "questionPrompt": "Calculate $$f^{-1}(2)$$.",
+          "solution": "e^{2}-2",
+          "answer": 5.389056,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\ln{(x-2)}",
+          "questionPrompt": "Calculate $$f^{-1}(2)$$.",
+          "solution": "e^{2}+2",
+          "answer": 9.389056,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        },
+        {
+          "question": "f(x)=\\sin{(x)}, \\footnotesize{-\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2}}",
+          "questionPrompt": "Calculate $$f^{-1}(\\frac{\\pi}{6})$$.",
+          "solution": "\\arcsin{\\frac{\\pi}{6}}",
+          "answer": 0.55107,
+          "status": "unattempted"
+        }
+      ],
+      "numQuestions": 10
+    }
+  ]
+}

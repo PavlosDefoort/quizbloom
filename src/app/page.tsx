@@ -1,5 +1,5 @@
 "use client";
-
+//On the client side, we can use the fetch API to make requests to the server.
 export default function Home() {
   async function addUser() {
     const res = await fetch("/api/user", {

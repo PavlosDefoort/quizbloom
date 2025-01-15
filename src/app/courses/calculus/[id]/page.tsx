@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { createTheme } from "@mui/material/styles";
 import { ThemeProvider } from "@mui/material/styles";
 import quizzes from "../quiz.json";
+import { useRouter } from "next/router";
 interface Question {
   question: string;
   questionPrompt: string;

@@ -1,21 +1,7 @@
-"use client";
-
 export default function Home() {
-  async function addUser() {
-    const res = await fetch("/api/user", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email: "apples", name: "a" }),
-    });
-    const data = await res.json();
-    console.log(data);
-  }
   return (
     <main className="bg-gradient-to-r from-[#12c2e9] via-[#c471ed] to-[#f64f59] flex min-h-screen flex-col items-center justify-between p-24">
       <div className=" relative isolate px-6 pt-14 lg:px-8">
-        <button onClick={() => addUser()}>Add User</button>
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"

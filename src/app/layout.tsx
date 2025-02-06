@@ -6,8 +6,8 @@ import Example from "./NewBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "PenguMath",
-  description: "The best way to test your math skills.",
+  title: "QuizBloom",
+  description: "Blossom with every quiz",
 };
 
 export default function RootLayout({

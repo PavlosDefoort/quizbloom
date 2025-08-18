@@ -253,7 +253,7 @@ export default function QuizLogic({ quiz }: QuizLogicProps) {
                 severity="warning"
                 sx={{ width: "100%" }}
               >
-                PenguMath could not understand your answer. Please try again!
+                QuizBloom could not understand your answer. Please try again!
               </Alert>
             </Snackbar>
           </Stack>

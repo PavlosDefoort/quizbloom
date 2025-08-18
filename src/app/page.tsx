@@ -20,10 +20,10 @@ export default function Home() {
         <div className="animate-fade mx-auto max-w-1xl py-32 sm:py-48 lg:py-40">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-white to-white text-transparent bg-clip-text sm:text-6xl">
-              Unleash Your Math Superpowers
+              Unleash Your Academic Superpowers
             </h1>
             <p className="mt-4 font-bold text-lg leading-8 text-white">
-              Unlock Academic Excellence with PenguMath: Ace Exams and Master
+              Unlock Academic Excellence with QuizBloom: Ace Exams and Master
               Multiple Subjects!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">

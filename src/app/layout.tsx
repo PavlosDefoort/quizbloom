@@ -1,13 +1,13 @@
 import "./globals.css";
 import "katex/dist/katex.min.css";
 import { Inter } from "next/font/google";
-import Example from "./NewBar";
+import Example from "./components/NewBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "PenguMath",
-  description: "The best way to test your math skills.",
+  title: "QuizBloom",
+  description: "Blossom with every quiz",
 };
 
 export default function RootLayout({

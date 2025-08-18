@@ -5,19 +5,7 @@ import { createTheme } from "@mui/material/styles";
 import { ThemeProvider } from "@mui/material/styles";
 import quizzes from "../quiz.json";
 import { useRouter } from "next/router";
-interface Question {
-  question: string;
-  questionPrompt: string;
-  solution: string;
-  answer: number;
-  status: string;
-}
-interface Quiz {
-  questions: Question[];
-  name: string;
-  numQuestions: number;
-  [key: string]: any;
-}
+
 export default function CalculusQuiz({ params }: { params: { id: string } }) {
   function findQuizByName(name: string, data: Quiz[]) {
     return data.find((quiz) => quiz.name === name);

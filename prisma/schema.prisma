@@ -10,8 +10,8 @@ generator client {
 
 datasource db {
   provider  = "postgresql"
-  url       = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
+  url       = env("DATABASE_URL") // Used by Prisma Client to connect
+  directUrl = env("DIRECT_URL") // For migrations
 }
 
 model User {
@@ -28,8 +28,9 @@ model Quiz {
 }
 
 model Question {
-  id     String @id @default(uuid())
-  prompt String
-  quiz   Quiz   @relation(fields: [quizId], references: [id])
-  quizId String
+  id         String @id @default(uuid())
+  prompt     String
+  quiz       Quiz   @relation(fields: [quizId], references: [id])
+  quizId     String
+  difficulty Float
 }
